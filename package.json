@@ -4,7 +4,7 @@
   "description": "Lab 19 - Q1: Token based authentication with JWT (register, login, protected route)",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node --watch src/server.js",
     "dev": "nodemon src/server.js",
     "test": "jest --runInBand --verbose"
   },
